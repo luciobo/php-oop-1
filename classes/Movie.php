@@ -4,9 +4,19 @@ class Movie {
 
     private $titolo;
     private $genere;
-    private $descxrizione;
+    private $descrizione;
     private $attori;
 
+    function __construct($_titolo, $_genere, $_descrizione, $_attori) {
+
+    
+        $this->setTitolo($_titolo);
+        $this->setGenere($_genere);
+        $this->setDescrizione($_descrizione);
+        $this->setAttori($_attori);
+
+
+}
 
 
     /**
@@ -22,9 +32,9 @@ class Movie {
      *
      * @return  self
      */ 
-    public function setTitolo($titolo)
+    public function setTitolo($_titolo)
     {
-        $this->titolo = $titolo;
+        $this->titolo = $_titolo;
 
         return $this;
     }
@@ -42,29 +52,29 @@ class Movie {
      *
      * @return  self
      */ 
-    public function setGenere($genere)
+    public function setGenere($_genere)
     {
-        $this->genere = $genere;
+        $this->genere = $_genere;
 
         return $this;
     }
 
     /**
-     * Get the value of descxrizione
+     * Get the value of descrizione
      */ 
-    public function getDescxrizione()
+    public function getDescrizione()
     {
-        return $this->descxrizione;
+        return $this->descrizione;
     }
 
     /**
-     * Set the value of descxrizione
+     * Set the value of descrizione
      *
      * @return  self
      */ 
-    public function setDescxrizione($descxrizione)
+    public function setDescrizione($_descrizione)
     {
-        $this->descxrizione = $descxrizione;
+        $this->descrizione = $_descrizione;
 
         return $this;
     }
@@ -82,12 +92,10 @@ class Movie {
      *
      * @return  self
      */ 
-    public function setAttori($attori)
+    public function setAttori($_attori)
     {
-        $this->attori = $attori;
+        $this->attori = $_attori;
 
         return $this;
     }
 }
-
-?>
