@@ -8,6 +8,6 @@ var_dump($myMovie);
 
 echo "film:" . $myMovie->getAttori();
 
-
+echo $nomeUnito;
 
 ?>
