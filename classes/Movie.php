@@ -19,19 +19,13 @@ class Movie {
 }
 
 
-    /**
-     * Get the value of titolo
-     */ 
+
     public function getTitolo()
     {
         return $this->titolo;
     }
 
-    /**
-     * Set the value of titolo
-     *
-     * @return  self
-     */ 
+
     public function setTitolo($_titolo)
     {
         $this->titolo = $_titolo;
@@ -39,19 +33,13 @@ class Movie {
         return $this;
     }
 
-    /**
-     * Get the value of genere
-     */ 
+
     public function getGenere()
     {
         return $this->genere;
     }
 
-    /**
-     * Set the value of genere
-     *
-     * @return  self
-     */ 
+
     public function setGenere($_genere)
     {
         $this->genere = $_genere;
@@ -59,19 +47,13 @@ class Movie {
         return $this;
     }
 
-    /**
-     * Get the value of descrizione
-     */ 
+
     public function getDescrizione()
     {
         return $this->descrizione;
     }
 
-    /**
-     * Set the value of descrizione
-     *
-     * @return  self
-     */ 
+
     public function setDescrizione($_descrizione)
     {
         $this->descrizione = $_descrizione;
@@ -79,19 +61,13 @@ class Movie {
         return $this;
     }
 
-    /**
-     * Get the value of attori
-     */ 
+
     public function getAttori()
     {
         return $this->attori;
     }
 
-    /**
-     * Set the value of attori
-     *
-     * @return  self
-     */ 
+
     public function setAttori($_attori)
     {
         $this->attori = $_attori;

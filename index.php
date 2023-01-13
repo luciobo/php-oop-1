@@ -6,5 +6,8 @@ $myMovie = new Movie ("Shaft", "Azione","Film d'azione" ,"Samuel L.Jeckson");
 
 var_dump($myMovie);
 
+echo "film:" . $myMovie->getAttori();
+
+
 
 ?>
