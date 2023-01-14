@@ -1,6 +1,9 @@
 <?php 
 
 require_once "./classes/Movie.php";
+require_once "./classes/Indirizzo.php";
+
+
 
 $myMovie1 = new Movie ("Shaft", "Azione","Film d'azione" ,"Samuel L.Jeckson");
 $myMovie2 = new Movie ("Caccia a Ottobre Rosso", "Azione","Film d'azione" ,"Sean Connery");
@@ -34,5 +37,22 @@ echo $myMovie1->infoFilm();
 echo "<br>";
 echo $myMovie2->infoFilm();
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+
+
+// sezione casa ----------------------------
+
+
+$laMiaCasa = new Indirizzo("Milano", "Via le mani dal culo", "20136", "Italia","Lombardia");
+
+
+var_dump($laMiaCasa);
+
+
+echo $laMiaCasa->IndirizzoCompleto();
 
 ?>
