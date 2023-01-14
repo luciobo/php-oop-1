@@ -76,4 +76,7 @@ class Movie {
     }
 
 
+    public function infoFilm() {
+        return "Titolo: " . $this->titolo . ",  Genere: " . $this->genere . ",  Descrizione: " . $this->descrizione . ",  Attori: " . $this->attori;
+    }
 }

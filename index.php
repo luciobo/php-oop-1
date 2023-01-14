@@ -29,6 +29,10 @@ echo "<br>";
 echo "Descizione: " . $myMovie2->getDescrizione();
 echo "<br>";
 echo "Attori: " . $myMovie2->getAttori();
+echo "<br>";
+echo $myMovie1->infoFilm();
+echo "<br>";
+echo $myMovie2->infoFilm();
 
 
 ?>
